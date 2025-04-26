@@ -1,0 +1,73 @@
+
+#bornACrimeBlog{
+    height: 60vh;
+    width: 40vh;
+}
+body{
+    margin: 5vh 20vh;
+    background-color: rgb(244, 245, 246);
+    border: 2px solid;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.body{
+    background-color: rgb(233, 244, 245);
+    padding: 50px;
+    box-shadow:5px 5px 5px 5px rgb(197, 196, 196), -5px -5px 5px 5px rgb(197, 196, 196);
+    
+}
+
+.rename{
+    display: flex;
+}
+
+@media screen and (max-width:760px) {
+    
+    #bornACrimeBlog{
+        height: 60vh;
+        width: 30vh;
+    }
+   
+    .body{
+        background-color: rgb(233, 244, 245);
+        padding: 50px;
+        box-shadow:5px 5px 5px 5px rgb(197, 196, 196), -5px -5px 5px 5px rgb(197, 196, 196);
+        
+    }
+    body{
+        margin: 5vh 5vh;
+        background-color: rgb(244, 245, 246);
+        border: 2px solid;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+    }
+    
+    .rename{
+        display: block;
+    }
+}
+@media screen and (min-width:761px) and (max-width:1200px){
+    #bornACrimeBlog{
+        height: 50vh;
+        width: 50vh;
+    }
+   
+    .body{
+        background-color: rgb(233, 244, 245);
+        padding: 50px;
+        box-shadow:5px 5px 5px 5px rgb(197, 196, 196), -5px -5px 5px 5px rgb(197, 196, 196);
+        
+    }
+    body{
+        margin: 5vh 5vh;
+        background-color: rgb(244, 245, 246);
+        border: 2px solid;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+    }
+    
+    .rename{
+        display: block;
+    }
+}
