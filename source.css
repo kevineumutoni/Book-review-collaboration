@@ -1,0 +1,25 @@
+body{
+    background-image: url(image/Trevor_Noah.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.origin{
+    text-align: center;
+    padding-top:80px ;
+}
+.trevor{
+    font-size: 30px;
+    color: rgb(63, 62, 62);
+    padding-left: 50px;
+}
+.continue{
+    font-size: 20px;
+    padding-left: 1500px;
+}
+
+.navigation{
+    position: absolute;
+    top: 21cm;
+    left: 3cm;
+    font-size: 30px;
+    }

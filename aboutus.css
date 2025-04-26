@@ -1,0 +1,59 @@
+body{
+    margin: 8cm;
+    background-image: url(image/images.jpeg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 16cm;
+    padding-top: 60px;
+    background-size: cover;
+}
+#reword{
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    left: -890px;
+}
+.book-title{
+    text-align: justify;
+    font-size: 25px;
+  
+}
+.navigation{
+position: absolute;
+top: 8cm;
+left: -18cm;
+font-size: 30px;
+}
+.continue{
+    font-size: 40px;
+}
+.gender-roles{
+   position: relative;
+   animation:move-text 30s infinite; 
+}
+.images{
+     position: absolute;
+     left: -700px;
+     top: -250px;
+}
+
+@keyframes move-text{
+    0%{
+        left:0;
+    }
+}
+
+
+
+
+
+
+.gener-roles{
+    font-size: 20px;
+}
+#expectetion{
+    text-align: center;
+    font-size: 30px;
+}
+
+ 

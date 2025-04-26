@@ -1,0 +1,34 @@
+body{
+  overflow-x: hidden;
+  background-color: rgb(22, 22, 22);
+}
+.summary{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    /* padding-top: 10px; */
+    padding-bottom: 80px;
+    position: relative;
+   animation:move-text 50s infinite;
+   animation-duration: 10s; 
+}
+#trevor{
+    position: relative;
+    top: 100px;
+    padding-left: 80px;
+    rotate: 20deg;
+}
+#trevor1{
+    position: relative;
+    top: 300px;
+    padding-left: 999px;
+    rotate: -20deg;
+}
+@keyframes move-text{
+    0%{
+        top: 50vh;
+    }
+    100%{
+      top: 0vh;
+    }
+}

@@ -1,0 +1,19 @@
+.images{
+    background-image: url(image/Born-a-Crime-Trevor-Noah.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#tr1{
+    width: 30%;
+    height: 80vh;
+}
+.navigation{
+    position: absolute;
+    left: 20cm;
+    font-size: 30px;
+    top: 23cm;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+}
