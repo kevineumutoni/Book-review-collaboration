@@ -1,0 +1,57 @@
+
+body{
+    margin: 0;
+}
+.home{
+    background-image: url(images/pexels-bella-white-201200-635279.jpg);
+    height: 81%;
+    width: 91%;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    padding: 9vh;
+    background-color: rgba(0,0, 0, 0.9);
+    background-blend-mode: darken;
+    position: relative;
+}
+
+#alchemist:hover{
+    /* width: 40vh; */
+    transform: scale(1);
+    height: 80vh;
+}
+#bornACrime{
+
+    height: 80vh;
+    
+}
+
+#aboutUs{
+    position: absolute;
+    bottom: 90px;
+    right: 85vh;
+    height: 70px;
+    width: 30vh;
+    font-size: larger;
+
+}
+#image{
+    height: 25vh;
+    width: 20vh;
+    border-radius: 50px;
+    margin: 20px;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 200px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+
+#bornACrimeBlog{
+    height: 60vh;
+    width: 40vh;
+}

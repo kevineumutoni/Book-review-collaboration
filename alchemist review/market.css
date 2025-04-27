@@ -1,0 +1,24 @@
+.main-container{
+    display: flex;
+    /* gap:2%; */
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+    
+  }
+  body{
+      overflow-x: hidden;
+      max-width: 600vw;
+      background-image: linear-gradient(rgb(236, 233, 233),rgba(247, 241, 241, 0.233)),url('');
+  }
+  .column{
+      /* margin-left:30% ; */
+      overflow-x: hidden;
+      overflow: hidden;
+     
+  }
+  .row img{
+      /* margin-left: 10%; */
+      border-radius: 10%;
+  }
