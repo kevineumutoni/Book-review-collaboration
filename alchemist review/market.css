@@ -22,3 +22,17 @@
       /* margin-left: 10%; */
       border-radius: 10%;
   }
+  @media (max-width: 1024px) {
+    .main-container{
+        flex-direction: column;
+    }
+    .row img{
+        width: 100%;
+    }
+    .column img{
+        width: 100%;
+    }
+    .video-show {
+        width: 100%;
+    }
+  }
