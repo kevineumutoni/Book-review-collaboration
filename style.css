@@ -39,6 +39,10 @@ body{
     font-weight: bolder;
 
 }
+#aboutUs:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(252, 117, 54);
+}
 #image{
     height: 25vh;
     width: 20vh;
