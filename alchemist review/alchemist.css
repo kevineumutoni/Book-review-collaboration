@@ -295,7 +295,7 @@ footer {
     }
     
     .nav-links {
-        display: none;
+        display: block;
     }
     
     .quote {
@@ -324,7 +324,6 @@ footer {
     .embracing-change img{
         width: 60%;
         height: 100%;
-        margin-right: 100%;
     }
 
 .containers{
@@ -342,6 +341,9 @@ footer {
 body{
     overflow-x: hidden;
 } 
+.book{
+    display: flex;
+}
 }
 
 

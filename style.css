@@ -1,6 +1,7 @@
 
 body{
     margin: 0;
+    overflow-x: hidden;
 }
 .home{
     background-image: url(images/pexels-bella-white-201200-635279.jpg);
@@ -54,4 +55,21 @@ h1{
 #bornACrimeBlog{
     height: 60vh;
     width: 40vh;
+}
+@media (max-width: 1024px){
+    
+    .home{
+        flex-direction: column;
+    }
+    #alchemist{
+        width: 100%;
+        height: auto;
+    }
+    #bornACrime{
+        width: 100%;
+        height: auto;
+    }
+    .images{
+        padding: 0;
+    }
 }
