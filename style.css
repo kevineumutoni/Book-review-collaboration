@@ -4,14 +4,14 @@ body{
     overflow-x: hidden;
 }
 .home{
-    background-image: url(images/pexels-bella-white-201200-635279.jpg);
+    background-image: url(/bookbackground.jpg);
     height: 81%;
     width: 92%;
     background-size: cover;
     display: flex;
     justify-content: space-between;
     padding: 10vh;
-    background-color: rgba(0,0, 0, 0.9);
+    background-color: rgba(0,0, 0, 0.6);
     background-blend-mode: darken;
     position: relative;
 }
@@ -28,9 +28,13 @@ body{
 #aboutUs{
     position: absolute;
     bottom: 90px;
-    right: 85vh;
+    border: none;
+    right: 95vh;
     height: 70px;
     width: 30vh;
+    color: rgb(94, 90, 90);
+    border-radius: 20px;
+    background-color: rgb(248, 218, 183);
     font-size: larger;
 
 }
