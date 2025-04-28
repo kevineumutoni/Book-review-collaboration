@@ -6,20 +6,18 @@ body{
 .home{
     background-image: url(images/pexels-bella-white-201200-635279.jpg);
     height: 81%;
-    width: 91%;
+    width: 92%;
     background-size: cover;
     display: flex;
     justify-content: space-between;
-    padding: 9vh;
+    padding: 10vh;
     background-color: rgba(0,0, 0, 0.9);
     background-blend-mode: darken;
     position: relative;
 }
 
-#alchemist:hover{
-    /* width: 40vh; */
-    transform: scale(1);
-    height: 80vh;
+#alchemist{
+     height: 80vh;
 }
 #bornACrime{
 

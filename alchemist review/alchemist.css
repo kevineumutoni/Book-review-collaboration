@@ -239,6 +239,10 @@ p {
     margin-right: 11%;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
 
 .blog-title {
     font-size: 1.8rem;

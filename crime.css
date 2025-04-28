@@ -14,7 +14,11 @@ header{
     text-align: center;
     position: relative;
     overflow: hidden;
-}     
+}  
+a{
+    text-decoration: none;
+    color: white;
+}   
 
 * {
     margin: 0;
