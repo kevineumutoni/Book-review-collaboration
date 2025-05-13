@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Born a Crime Blog</title>
+    <link href="style.css" rel="stylesheet">
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1> Personal Blog</h1>
+    </header>
+
+    <div class="content-book">
+        <img src="https://m.media-amazon.com/images/I/91shjDQ3TBL._SY425_.jpg" alt="Born a Crime book cover"
+            class="author-img">
+        <h1>Laughing through the walls</h1>
+
+        <P> Lauging through the walls is what i would
+            name it.Due to
+            Noah's ability to find humor during the harsh realities of apartheid.
+            Trevor noah used humor to survive of his painful experience growing up under apartheid.
+            The challenges he encountered from poverty to <br>racism,made the person he is.Through out Born a
+            Crime,Trevor shows that humor is not just a scape
+            but a tool to cope,resisit and tranform trauma into strength and understanding.
+
+        </P>
+    </div>
+
+    <div class="content-book">
+        <h1>Exploring Abel's Paradoxal Desire</h1>
+        <div class="quote">
+            "Abel wanted a traditional marriage with a traditional wife… but he never fell in love with subservient
+            women… 'He only wants a woman who is free because his dream is to put her in a cage.'"
+        </div>
+
+
+        <p> Having spent three years in the scary times of war freedom wasn't just an idea .It was like that
+            open sky for a trapped bird.It was the feeling of being safe and able to do what i wanted with out
+            no one saing "no" it was one of the most important things I yearned for.The idea of some one wanting a free
+            spirit only to imprsion them is a similar to how bigger from of
+            <!-- war and unfair treatment starts. </P> -->
+            <!-- <p> -->
+            <br>
+            I believe that behaviour steams from a deep insecurity,a need to control.Even druing peace time i
+            see that the expectation for women to shoulder the domestic duties while also excelling
+            professionaly.If women dream "too big" sometimes their partenrs even society try to dim their light.
+            when partners say they love,the possesivness disguised as love-are the bars ready to keep her locked
+            in as Abel did to patricia afraid to be them selves.<br>Abel,like many people today,is drawn to independent
+            and strong woman,a contrast to the roles of society has historically assigned.But when he said putting her
+            in cage it shows a basic misunderstanding of love and partnership.True connection thrives on mutual respect
+            of eachother's
+            compnay.
+            <br>
+            Today's gender role are shifiting.Women are being encoraged to chase careers and dream big.Yet,when
+            their success shine traditional expectations,partenrens even society subtly try to hold them down.I
+            see this in different conversations with friedns when a woman prioritize her career over a merriage
+            or refuse to settle,she gets labeled as "too much".Love mixed with insecurity can become a cage
+            rather than safe place.<br>True relationships however should be space of freedom not a control.Loving
+            someone is accepting thier full self not shrinking them to fit to your comfortzone.Abel's desire to capture
+            and contain
+            what he admired in patricia reflects misunderstanding.Love should never be about ownership,it
+            demands mutual respect and to let eachother fly not to hold each other's wing.
+        </p>
+
+
+
+
+
+        <button class="reflective-button" onclick="readMore()">Read More</button>
+        <div id="personal-reflection" class="hide">
+        
+        </div>
+    </div>
+    <script>
+        function readMore() {
+            const content = document.getElementById('personal-reflection');
+            const btn = document.querySelector('.reflective-button');
+
+            if (content.style.display === 'block') {
+                content.style.display = 'none';
+                btn.textContent = 'Read More';
+            } else {
+                content.style.display = 'block';
+                btn.textContent = 'Read More';
+            }
+        }
+    </script>
+</body>
+
+</html>
